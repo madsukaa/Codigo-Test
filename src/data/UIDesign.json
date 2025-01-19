@@ -1,0 +1,42 @@
+{
+    "header": {
+      "logo": "Image-3.png",
+      "notificationIcon": "Leading-icon.png"
+    },
+    "banner": {
+      "image": "sea-fish.jpg"
+    },
+    "navigation": [
+      { "label": "Map", "icon": "Group-342.png" },
+      { "label": "Inhabitants", "icon": "Group-342-2.png" },
+      { "label": "Shows", "icon": "Group-341.png" },
+      { "label": "Shopping", "icon": "Group-275.png" },
+      { "label": "Dine", "icon": "Group-310.png" },
+      { "label": "Meet & Greets", "icon": "Layer-1.png" }
+    ],
+    "parkInfo": {
+      "tickets": "There aren't any yet.",
+      "hours": "Today, 13 Feb 10am - 5pm"
+    },
+    "upcomingShows": [
+      {
+        "id": 1,
+        "time": "2:30 PM",
+        "title": "Dive Feeding @ Shipwreck",
+        "image": "dive-feeding.jpg"
+      },
+      {
+        "id": 2,
+        "time": "2:40 PM",
+        "title": "Say Cheese Shark",
+        "image": "cheese-shark.jpg"
+      }
+    ],
+    "details": {
+      "title": "Alligator Gar",
+      "distance": "410m away",
+      "description": "With its wide, alligator-like snout and razor-sharp teeth, it’s easy to see how this fish acquired its name. Despite its ferocious appearance, the alligator gar poses little threat to human beings. They prefer to lie and wait for unsuspecting prey within reach, before lunging forward to grab their prey. As the largest species in the gar family, the alligator gar can reach up to 3 metres in length. Scientists have traced this species in fossil records dating back to 100 million years ago, hence they are also known as living fossils!",
+      "image": "alligator-gar.jpg"
+    }
+  }
+  

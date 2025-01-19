@@ -1,6 +1,19 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "target": "ESNext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": "./src",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@assets/*": ["../assets/*"],
+    }
   }
 }
