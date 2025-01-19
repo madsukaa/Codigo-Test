@@ -1,6 +1,8 @@
 import axios from "axios";
 import { Movie } from "config/store/movies";
-const API_KEY = "64b9daee289024f5f045b4223960a588";
+import dotenv from "dotenv";
+dotenv.config();
+const API_KEY = process.env.MOVIE_API_KEY || "";
 const BASE_URL = "https://api.themoviedb.org/3";
 const tmdbApi = axios.create({
   baseURL: BASE_URL,
